@@ -27,21 +27,17 @@ Getting Started
 1. Clone the repository
 git clone https://github.com/aamalrxj/incident-tracker.git
 
-
 2. Navigate to the project directory
 cd incident-tracker
 
-
 3. Install dependencies
 npm install
-
 
 4. Configure environment variables
 Create a `.env.local` file in the root directory:
 MONGODB_URI=your_mongodb_connection_string
 NEXTAUTH_SECRET=your_nextauth_secret
 NEXTAUTH_URL=http://localhost:3000
-
 
 Replace the placeholder values with your actual configuration.
 - `MONGODB_URI`: MongoDB Atlas connection string.
@@ -72,5 +68,7 @@ Future Improvements
 - Introduce advanced filtering and reporting.
 - Improve API validation and authorization.
 - Add automated tests for authentication and incident management.
+
+![alt text](https://github.com/aamalrxj/incident-tracker/blob/main/Screenshot%202026-11-03%20003153.png)
 
 Demo Video : https://drive.google.com/file/d/114rzI3dXQS6wwPSwAdcqMb0iX_4ckjTo/view?usp=drive_link
