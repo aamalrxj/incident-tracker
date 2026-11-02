@@ -69,6 +69,7 @@ Future Improvements
 - Improve API validation and authorization.
 - Add automated tests for authentication and incident management.
 
+![alt text](https://github.com/aamalrxj/incident-tracker/blob/main/Screenshot%202026-11-03%20003134.png)
 ![alt text](https://github.com/aamalrxj/incident-tracker/blob/main/Screenshot%202026-11-03%20003153.png)
 
 Demo Video : https://drive.google.com/file/d/114rzI3dXQS6wwPSwAdcqMb0iX_4ckjTo/view?usp=drive_link
