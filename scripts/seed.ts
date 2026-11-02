@@ -7,9 +7,15 @@ async function seed() {
   const bcrypt = await import("bcryptjs");
 
   await connectDB();
-  const hashedPassword = await bcrypt.hash("admin123", 10);
-  await User.create({ email: "admin@test.com", password: hashedPassword, role: "admin" });
-  console.log("Seeded admin user");
+
+  const adminPassword = await bcrypt.hash("admin123", 10);
+  const analystPassword = await bcrypt.hash("analyst123", 10);
+
+  await User.create([
+    { email: "analyst@test.com", password: analystPassword, role: "analyst" },
+  ]);
+
+  console.log("Seeded analyst user");
   process.exit();
 }
 
